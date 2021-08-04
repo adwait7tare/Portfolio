@@ -35,7 +35,7 @@ header nav ul li {
     margin-left: 25px;
 }
 
-a {
+li a {
     color: lightgoldenrodyellow;
     text-decoration: none;
 }
@@ -59,7 +59,7 @@ a {
 .about-me-info {
     flex: 7;
     margin: 10px;
-    padding: 5px;    
+    padding: 5px;
 }
 
 .about-me-title h1 {
@@ -155,19 +155,8 @@ a {
 
 .contact-details {
     flex: 7;
-    margin: 10px;
     padding: 5px;
-}
-
-.work-title h1 {
-    text-align: right;
-}
-
-.work-examples p {
-    text-align: left;
-}
-
-.contact-details {
+    text-align: center;
     display: flex;
 }
 
@@ -187,10 +176,15 @@ a {
     flex: 1;
 }
 
-footer{
+.contact-me a {
+    text-decoration: none;
+}
+
+footer {
     text-align: center;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: lightgoldenrodyellow;
+
 }
