@@ -2,6 +2,10 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+body {
+    min-width: 450px;
+}
+
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -11,86 +15,95 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 30px;
+    width: auto;
 }
 
 header h1 .portfolio {
     color: goldenrod;
 }
 
-header nav {
-    padding-top: 35px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.navbar {
+    display: flex;
+    justify-content: start;
+    background-color: rgb(84, 79, 79);
+    padding: 20px;
     font-size: 20px;
+    border-top: 5px solid lightblue;
+    text-align: center;
 }
 
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-li a {
+nav a {
     color: lightgoldenrodyellow;
+    padding: 14px 20px;
     text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: lightgoldenrodyellow;
+    background-color: black;
 }
 
 .about-me {
     display: flex;
-    justify-content: stretch;
-    height: 200px;
-}
-
-.about-me div {
-    border: 1px black solid;
+    height: auto;
+    margin-top: 5px;
+    border: 5px solid black;
+    background-color: lightgray;
 }
 
 .about-me-title {
+    border: 1px black solid;
     flex: 1;
     margin: 10px;
-    padding: 5px 5px 20px 40px;
+    padding: 10px;
+    text-align: center;
+    background-color: #BFD8B8;
+}
+
+.about-me-title img {
+    height: 150px;
+    width: auto;
+    flex: 0 0 400px;
 }
 
 .about-me-info {
     flex: 7;
     margin: 10px;
-    padding: 5px;
-}
-
-.about-me-title h1 {
-    text-align: right;
-}
-
-.about-me-title p {
-    text-align: left;
+    padding: 20px 10px;
+    border: 1px black solid;
+    background-color: #BFD8B8;
+    color: darkgreen;
+    align-items: center;
+    height: auto;
 }
 
 .work {
     display: flex;
-    justify-content: stretch;
-    height: 600px;
-}
-
-.work div {
-    border: 1px black solid;
-    justify-content: stretch;
+    height: auto;
+    margin-top: 5px;
+    border: 5px solid black;
+    background-color: lightgray;
 }
 
 .work-title {
+    border: 1px black solid;
     flex: 1;
     margin: 10px;
-    padding: 5px 5px 20px 40px;
+    padding: 10px;
+    background-color: #E7EAB5;
 }
 
 .work-examples {
     flex: 7;
     margin: 10px;
-    padding: 5px;
+    padding: 20px 10px;
+    border: 1px black solid;
+    background-color: #E7EAB5;
+    color: darkgreen;
+    align-items: center;
+    height: fit-content;
 }
 
 .work-title h1 {
@@ -102,83 +115,117 @@ li a {
 }
 
 .surf-report {
-    height: 33%;
+    height: 300px;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
+    background-image: url("../img/surfing.jpg");
 }
 
 .other-projects-row1 {
     display: flex;
-    height: 33%;
+    height: fit-content;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px 10px;
 }
 
 .row1-proj1 {
     flex: 1;
+    height: 150px;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
+    background-image: url("../img/LEDWave.jpg");
 }
 
 .row1-proj2 {
     flex: 1;
+    height: 150px;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
+    background-image: url("../img/calculator.jpg");
 }
 
 .other-projects-row2 {
     display: flex;
-    height: 33%;
+    height: fit-content;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
 }
 
 .row2-proj1 {
     flex: 1;
+    height: 150px;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
+    background-image: url("../img/puzzle.jpg");
 }
 
 .row2-proj2 {
     flex: 1;
+    height: 150px;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
+    background-image: url("../img/buddies.jpg");
 }
 
 .contact-me {
     display: flex;
-    justify-content: stretch;
-    height: 100px;
+    height: auto;
+    margin-top: 5px;
+    border: 5px solid black;
+    background-color: lightgray;
 }
-
-.contact-me div {
-    border: 1px black solid;
-    justify-content: sp;
-}
-
 
 .contact-me-title {
+    border: 1px black solid;
     flex: 1;
     margin: 10px;
-    padding: 5px 5px 20px 40px;
+    padding: 10px;
+    background-color: #F1F7E7;
 }
 
 .contact-me-title h1 {
     text-align: right;
+    padding: auto;
 }
 
 .contact-details {
     flex: 7;
-    padding: 5px;
-    text-align: center;
     display: flex;
+    margin: 10px;
+    padding: 20px 10px;
+    border: 1px black solid;
+    background-color: #F1F7E7;
+    color: darkgreen;
+    align-items: center;
+    height: auto;
 }
 
-.phone-email {
+.contact-info {
+    display: flex;
+    height: auto;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px 10px;
+}
+
+.contact-box {
     flex: 1;
+    border: 1px black solid;
+    margin: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 20px;
+    background-color: E2C2B9;
 }
 
-.linkedin {
-    flex: 1;
-}
 
-.github {
-    flex: 1;
-}
-
-.twitter {
-    flex: 1;
-}
-
-.contact-me a {
-    text-decoration: none;
-}
 
 footer {
     text-align: center;
@@ -187,4 +234,53 @@ footer {
     background-color: #2a607c;
     color: lightgoldenrodyellow;
 
+}
+
+@media (max-width: 750px) {
+
+    .row,
+    .navbar {
+        flex-direction: column;
+    }
+
+    .about-me {
+        flex-direction: column;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .about-me-title {
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .work-title h1 {
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contact-details {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contact-me-title h1{
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    .contact-box {
+        width: 100%;
+    }
+
+    header {
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+    }
 }

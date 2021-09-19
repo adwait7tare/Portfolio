@@ -4,50 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <title>Portfolio</title>
 </head>
 
 <body>
     <header>
-        <h1>Adwait's <span class="portfolio">Portfolio</span></h1>
-
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">About me</a>
-                </li>
-                <li>
-                    <a href="#">Work</a>
-                </li>
-                <li>
-                    <a href="#">Contact me</a>
-                </li>
-                <li>
-                    <a href="#">Resume</a>
-                </li>
-            </ul>
-        </nav>
+        <div>
+            <h1>Adwait's <span class="portfolio">Portfolio</span></h1>
+        </div>
 
     </header>
+    <nav class="navbar">
+        <a href="https://www.linkedin.com/in/adwaittare/">About me</a>
+        <a href="https://incyree.com/">Work</a>
+        <a href="#my-contact">Contact me</a>
+    </nav>
 
     <main>
-        <section class="about-me">
+        <div class="row about-me">
             <div class="about-me-title">
-                <h1>About Me</h1>
+                <!-- <h3>About Me</h3> -->
+                <img class="adwait-img" src="assets/img/Adwait.PNG" alt="Adwait Tare" />
             </div>
             <div class="about-me-info">
                 <div class="about-me-details">
-                    <p>More info about me</p>
+                    <p>I have 25+ years of experience in IT audit,
+                        risk management, infrastructure technology, security and
+                        program management. Prior to founding Incyree, Adwait served as
+                        Senior Vice President (SVP) - Audit and Risk Review at
+                        Citigroup, SVP – Global Transactions Services at Citigroup,
+                        Director/Principal Architect at AT&T, Director-Cybersecurity at BDO,
+                        and he was also a senior member of KPMG Consulting’s Financial
+                        Services team.</p>
                 </div>
             </div>
+        </div>
 
-        </section>
-
-
-        <section class="work">
+        <div class="row work">
             <div class="work-title">
-                <h1>Work</h1>
+                <h1>Portfolio</h1>
             </div>
             <div class="work-examples">
                 <div class="surf-report">
@@ -56,44 +54,46 @@
                 <div class="other-projects">
                     <div class="other-projects-row1">
                         <div class="row1-proj1">
-                            <p>LED Wave</p>
+                            <h3>LED Wave</h3>
                         </div>
                         <div class="row1-proj2">
-                            <p>Calculator</p>
+                            <h3>Calculator</h3>
                         </div>
                     </div>
                     <div class="other-projects-row2">
                         <div class="row2-proj1">
-                            <p>Puzzle</p>
+                            <h3>Puzzle</h3>
                         </div>
                         <div class="row2-proj2">
-                            <p>Buddy</p>
+                            <h3>Buddy</h3>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
 
-        <section class="contact-me">
+        <div class="row contact-me">
             <div class="contact-me-title">
                 <h1>Contact Me</h1>
             </div>
-            <div class="contact-details">
-                <div class="phone-email">
-                    <a href="#">Phone number and Email addresse</a>
-                </div>
-                <div class="linkedin">
-                    <a href="#">LinkedIn</a>
-                </div>
-                <div class="github">
-                    <a href="#">GitHub</a>
-                </div>
-                <div class="twitter">
-                    <a href="#">twitter</a>
-                </div>
+            <div class="contact-details" id="my-contact">
+                    <div class="contact-box">
+                        <a href="#">555-555-5555 / at@e-mail.com</a>
+                    </div>
+                    <div class="contact-box">
+                        <a href="https://www.linkedin.com/in/adwaittare/">LinkedIn</a>
+                    </div>
+                    <div class="contact-box">
+                        <a href="#">GitHub</a>
+                    </div>
+                    <div class="contact-box">
+                        <a href="#">Twitter - Under Construction!</a>
+                    </div>
+
+
             </div>
-        </section>
+        </div>
     </main>
 
     <footer>
