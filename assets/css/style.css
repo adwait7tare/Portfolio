@@ -63,9 +63,10 @@ a:hover {
 }
 
 .about-me-title img {
-    height: 150px;
+    height: 200px;
     width: auto;
     flex: 0 0 400px;
+    align-items: center;
 }
 
 .about-me-info {
