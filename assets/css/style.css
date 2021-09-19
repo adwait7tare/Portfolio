@@ -101,7 +101,7 @@ a:hover {
     padding: 20px 10px;
     border: 1px black solid;
     background-color: #E7EAB5;
-    color: darkgreen;
+    color: black;
     align-items: center;
     height: fit-content;
 }
@@ -120,6 +120,7 @@ a:hover {
     margin: 10px;
     padding: 20px 10px;
     background-image: url("../img/surfing.jpg");
+    background-size: cover;
 }
 
 .other-projects-row1 {
@@ -137,6 +138,7 @@ a:hover {
     margin: 10px;
     padding: 20px 10px;
     background-image: url("../img/LEDWave.jpg");
+    background-size: cover;
 }
 
 .row1-proj2 {
@@ -146,6 +148,7 @@ a:hover {
     margin: 10px;
     padding: 20px 10px;
     background-image: url("../img/calculator.jpg");
+    background-size: cover;
 }
 
 .other-projects-row2 {
@@ -163,6 +166,7 @@ a:hover {
     margin: 10px;
     padding: 20px 10px;
     background-image: url("../img/puzzle.jpg");
+    background-size: cover;
 }
 
 .row2-proj2 {
@@ -172,6 +176,7 @@ a:hover {
     margin: 10px;
     padding: 20px 10px;
     background-image: url("../img/buddies.jpg");
+    background-size: cover;
 }
 
 .contact-me {
